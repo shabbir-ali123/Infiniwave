@@ -11,7 +11,7 @@
         <div class=" md:flex justify-evenly items-center leading-12">
           <div class="mx-4">
             <!-- Replace with icon as needed 131 by 131 -->
-            <div class="inline-block w-[131px] h-[131px] mx-auto flex items-center justify-center bg-gray-200 rounded-full">
+            <div class="inline-block w-[100px] h-[100px] mx-auto flex items-center justify-center bg-gray-200 rounded-full">
                 <!-- <img src={} alt="#"> -->
 <svg width="61" height="61" viewBox="0 0 61 62" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M30.4999 57.9953C45.409 57.9953 57.4951 45.9091 57.4951 31.0001C57.4951 16.091 45.409 4.00488 30.4999 4.00488C15.5909 4.00488 3.50476 16.091 3.50476 31.0001C3.50476 45.9091 15.5909 57.9953 30.4999 57.9953Z" fill="#99E2B4" stroke="#020202" stroke-width="2.475" stroke-linecap="round" stroke-linejoin="round"/>
@@ -33,7 +33,7 @@
         <div class="md:flex justify-evenly items-center leading-6">
           <div class="mx-4">
             <!-- Replace with icon as needed -->
-            <div class="inline-block w-[131px] h-[131px] mx-auto flex items-center justify-center bg-gray-200 rounded-full">
+            <div class="inline-block w-[100px] h-[100px] mx-auto flex items-center justify-center bg-gray-200 rounded-full">
                 <!-- <img src={} alt="#"> -->
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M19.6802 16.6501C13.5091 14.8284 7.77556 17.4103 3.04854 22.1373L13.1888 27.7439" fill="#99E2B4"/>
@@ -60,7 +60,7 @@
         <div class="md:flex  justify-evenly items-center leading-6">
           <div class="mx-4">
             <!-- Replace with icon as needed -->
-            <div class="inline-block w-[131px] h-[131px] mx-auto flex items-center justify-center bg-gray-200 rounded-full">
+            <div class="inline-block w-[100px] h-[100px] mx-auto flex items-center justify-center bg-gray-200 rounded-full">
                 <!-- <img src={} alt="#"> -->
                  
                   
@@ -84,7 +84,7 @@
         <div class="md:flex  justify-evenly items-center leading-6">
           <div class="mx-4 ">
             <!-- Replace with icon as needed -->
-            <div class="inline-block w-[131px] h-[131px] mx-auto flex items-center justify-center bg-gray-200 rounded-full">
+            <div class="inline-block w-[100px] h-[100px] mx-auto flex items-center justify-center bg-gray-200 rounded-full">
                 <!-- <img src={} alt="#"> -->
                
 <svg width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">

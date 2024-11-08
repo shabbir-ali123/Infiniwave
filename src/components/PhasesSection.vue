@@ -1,56 +1,84 @@
-<template>
-    <section class="py-16"  style='
-  /* #007A73 #99E2B4  #66B2A8*/
+   <template>
+    <section class="py-16"  style=' 
+   /* #007A73 #99E2B4  #66B2A8*/
   background-image: radial-gradient(circle, #99E2B4,#f9f9f9)'>
-      <h2 class="text-center text-3xl font-bold mb-8">3 Phases Pour Élever Votre Présence  Digitale </h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-4 gap-x-1 justify-items-center ">
-        <!-- Each phase card -->
-        <div class=" p-6 rounded-lg shadow-md border-2 border-white rounded-2xl">
-          <h3 class="text-xl font-semibold mb-4 ">Design</h3>
-          <ul class="list-disc ml-4 text-gray-600">
-            <li>Maquette sur mesure</li>
-            <li>Personnalisation illimitée</li>
-            <li>Solution évolutive</li>
-            <li>Design impactant</li>
-            <li>Validation avant le développement</li>
-            <li>Expérience utilisateur fluide</li>
-            <li>Image de marque renforcée</li>
+    <h2 class="text-center text-3xl font-bold my-24 leading-16">3 Phases Pour Élever Votre Présence <br>  Digitale </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-8 lg:px-12 ">
+      <CardData title="Design" :items="designItems">
+        <template #icon>
+          <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21.125 34.125H34.125" stroke="white" stroke-opacity="0.99" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M32.6058 12.0156L11.1706 33.5364C10.7953 33.9132 10.2853 34.125 9.75353 34.125L6.50623 34.125C5.60532 34.125 4.875 33.3882 4.875 32.4873V29.219C4.875 28.69 5.08462 28.1825 5.45797 27.8076L26.8965 6.28356C31.7902 2.18922 36.6839 7.92126 32.6058 12.0156Z" stroke="white" stroke-opacity="0.99" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M24.8782 8.62842L30.4321 14.1822" stroke="white" stroke-opacity="0.99" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </template>
+      </CardData>
 
-          </ul>
-        </div>
-        
-          <!-- Each phase card -->
-        <div class="p-6 rounded-lg shadow-md border-2 border-white rounded-2xl">
-          <h3 class="text-xl font-semibold mb-4">Création</h3>
-          <ul class="list-disc ml-4 text-gray-600">
-            <li>Code optimisé et léger</li>
-            <li>Conception éco-responsable</li>
-            <li>Site accessible</li>
-            <li>Conception responsive</li>
-            <li>Gestion de la maintenance</li>
-            <li>Optimisation des performances</li>
-            <li>Contenu dynamique (si demandé)</li>
-           </ul>
-        </div>
-         <!-- Each phase card -->
-         <div class="p-6 rounded-lg shadow-md border-2 border-white rounded-2xl">
-          <h3 class="text-xl font-semibold mb-4">Déploiement</h3>
-          <ul class="list-disc ml-4 text-gray-600">
-            <li>Déploiement rapide</li>
-            <li>Optimisation automatique</li>
-            <li>Sécurité renforcée</li>
-            <li>Sauvegardes automatiques</li>
-            <li>Mises à jour simplifiées</li>
-            <li>Chargement rapide</li>
-            <li>Maintenance prise en charge</li>
-            <!-- Additional list items -->
-          </ul>
-        </div>
-      </div>
-    </section>
+      <!-- 2nd Card -->
+      <CardData title="Création" :items="codeItems">
+        <template #icon>
+          <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14.3182 6.36364C14.0035 6.36364 13.6959 6.45694 13.4343 6.63175C13.1727 6.80656 12.9688 7.05503 12.8484 7.34573C12.728 7.63643 12.6965 7.95631 12.7578 8.26492C12.8192 8.57352 12.9707 8.857 13.1932 9.07949C13.4157 9.30198 13.6992 9.4535 14.0078 9.51489C14.3164 9.57627 14.6363 9.54477 14.927 9.42435C15.2177 9.30394 15.4662 9.10003 15.641 8.83841C15.8158 8.57678 15.9091 8.2692 15.9091 7.95455C15.9091 7.53261 15.7415 7.12796 15.4431 6.8296C15.1448 6.53125 14.7401 6.36364 14.3182 6.36364ZM7.95455 6.36364C7.63989 6.36364 7.33231 6.45694 7.07068 6.63175C6.80906 6.80656 6.60515 7.05503 6.48474 7.34573C6.36432 7.63643 6.33282 7.95631 6.39421 8.26492C6.45559 8.57352 6.60711 8.857 6.8296 9.07949C7.0521 9.30198 7.33557 9.4535 7.64417 9.51489C7.95278 9.57627 8.27266 9.54477 8.56336 9.42435C8.85406 9.30394 9.10253 9.10003 9.27734 8.83841C9.45215 8.57678 9.54545 8.2692 9.54545 7.95455C9.54545 7.53261 9.37784 7.12796 9.07949 6.8296C8.78113 6.53125 8.37648 6.36364 7.95455 6.36364ZM20.6818 6.36364C20.3672 6.36364 20.0596 6.45694 19.798 6.63175C19.5363 6.80656 19.3324 7.05503 19.212 7.34573C19.0916 7.63643 19.0601 7.95631 19.1215 8.26492C19.1829 8.57352 19.3344 8.857 19.5569 9.07949C19.7794 9.30198 20.0628 9.4535 20.3714 9.51489C20.6801 9.57627 20.9999 9.54477 21.2906 9.42435C21.5813 9.30394 21.8298 9.10003 22.0046 8.83841C22.1794 8.57678 22.2727 8.2692 22.2727 7.95455C22.2727 7.53261 22.1051 7.12796 21.8068 6.8296C21.5084 6.53125 21.1038 6.36364 20.6818 6.36364ZM30.2273 0H4.77273C3.50692 0 2.29296 0.502839 1.3979 1.3979C0.502839 2.29296 0 3.50692 0 4.77273V30.2273C0 31.4931 0.502839 32.707 1.3979 33.6021C2.29296 34.4972 3.50692 35 4.77273 35H30.2273C31.4931 35 32.707 34.4972 33.6021 33.6021C34.4972 32.707 35 31.4931 35 30.2273V4.77273C35 3.50692 34.4972 2.29296 33.6021 1.3979C32.707 0.502839 31.4931 0 30.2273 0ZM31.8182 30.2273C31.8182 30.6492 31.6506 31.0539 31.3522 31.3522C31.0539 31.6506 30.6492 31.8182 30.2273 31.8182H4.77273C4.35079 31.8182 3.94614 31.6506 3.64778 31.3522C3.34943 31.0539 3.18182 30.6492 3.18182 30.2273V15.9091H31.8182V30.2273ZM31.8182 12.7273H3.18182V4.77273C3.18182 4.35079 3.34943 3.94614 3.64778 3.64778C3.94614 3.34943 4.35079 3.18182 4.77273 3.18182H30.2273C30.6492 3.18182 31.0539 3.34943 31.3522 3.64778C31.6506 3.94614 31.8182 4.35079 31.8182 4.77273V12.7273Z" fill="white"/>
+           </svg>
+        </template>
+      </CardData>
+
+      <!-- 3 card  -->
+      <CardData title="Déploiement" :items="thirdItems">
+        <template #icon>
+          <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M36.9999 5.70439C37.0015 4.57658 36.6681 3.47369 36.0422 2.53545C35.4162 1.59722 34.5258 0.86587 33.4837 0.434066C32.4416 0.00226165 31.2947 -0.110562 30.1884 0.109889C29.0821 0.33034 28.0662 0.874146 27.2693 1.6724L22.071 6.8696L10.065 2.8746C9.74539 2.77415 9.40446 2.76239 9.07864 2.84057C8.75282 2.91875 8.45436 3.08394 8.21512 3.31849L3.81231 7.68339C3.60369 7.89438 3.4489 8.15245 3.36101 8.43582C3.27311 8.71919 3.25469 9.01954 3.3073 9.31152C3.3599 9.6035 3.48199 9.87855 3.66325 10.1134C3.84452 10.3483 4.07964 10.5362 4.34878 10.6611L13.9314 15.0076L9.12158 19.8163L5.95822 18.2257C5.61667 18.0409 5.22561 17.9683 4.84046 18.0181C4.45531 18.0679 4.0956 18.2376 3.81231 18.5032L0.537944 21.8508C0.193394 22.1974 0 22.6661 0 23.1548C0 23.6434 0.193394 24.1121 0.537944 24.4587L12.5439 36.4622C12.8905 36.8066 13.3594 37 13.8481 37C14.3369 37 14.8057 36.8066 15.1523 36.4622L18.5007 33.1885C18.7783 32.9138 18.9619 32.5582 19.025 32.1728C19.0882 31.7874 19.0277 31.3919 18.8522 31.043L17.2612 27.8803L22.071 23.0715L26.4184 32.6521C26.5433 32.9212 26.7312 33.1563 26.9662 33.3375C27.2011 33.5187 27.4762 33.6408 27.7683 33.6934C28.0603 33.746 28.3607 33.7276 28.6441 33.6397C28.9276 33.5518 29.1857 33.3971 29.3967 33.1885L33.7626 28.8236C33.9972 28.5844 34.1624 28.286 34.2406 27.9603C34.3188 27.6345 34.307 27.2936 34.2065 26.9741L30.2107 14.9706L35.335 9.73638C35.8663 9.20846 36.2872 8.58004 36.573 7.88779C36.8589 7.19554 37.004 6.45331 36.9999 5.70439ZM32.7081 7.12853L26.7143 13.121C26.4797 13.3602 26.3145 13.6586 26.2363 13.9844C26.1581 14.3101 26.1699 14.651 26.2704 14.9706L30.2662 26.9556L28.6013 28.6201L24.254 19.058C24.1306 18.7865 23.9433 18.5488 23.7082 18.3652C23.473 18.1816 23.1969 18.0576 22.9035 18.0038C22.6076 17.9498 22.3031 17.9688 22.0162 18.059C21.7293 18.1492 21.4687 18.308 21.2571 18.5217L13.6354 26.2157C13.3618 26.489 13.1807 26.8412 13.1176 27.2227C13.0546 27.6043 13.1127 27.9959 13.2839 28.3427L14.8008 31.4499L13.7649 32.4857L4.45978 23.164L5.55123 22.2022L8.7146 23.7928C9.06144 23.964 9.45321 24.0221 9.83481 23.9591C10.2164 23.896 10.5687 23.715 10.842 23.4414L18.5007 15.7474C18.7133 15.5365 18.8714 15.2772 18.9617 14.9918C19.0519 14.7063 19.0715 14.4032 19.0187 14.1085C18.9659 13.8138 18.8424 13.5364 18.6587 13.2999C18.4751 13.0635 18.2367 12.8752 17.9642 12.7511L8.32612 8.40471L9.99105 6.74013L21.9785 10.7351C22.2982 10.8356 22.6391 10.8473 22.965 10.7692C23.2908 10.691 23.5892 10.5258 23.8285 10.2912L29.8222 4.29874C30.0066 4.11028 30.2267 3.96054 30.4697 3.8583C30.7128 3.75607 30.9738 3.7034 31.2374 3.7034C31.5011 3.7034 31.7621 3.75607 32.0051 3.8583C32.2481 3.96054 32.4683 4.11028 32.6526 4.29874C32.8456 4.47749 32.9982 4.69533 33.1003 4.93772C33.2023 5.18011 33.2515 5.44148 33.2446 5.70439C33.2546 5.96554 33.2123 6.22606 33.1202 6.47063C33.0281 6.7152 32.8879 6.93888 32.7081 7.12853Z" fill="white"/>
+          </svg>
+        </template>
+      </CardData>
+  
+      <!-- Add more cards as needed -->
+    </div>
+  </section>
   </template>
   
   <script>
-  export default {};
+  import CardData from './CardData.vue';
+  
+  export default {
+    components: {
+      CardData,
+    },
+    data() {
+      return {
+        designItems: [
+          'Maquette sur mesure',
+          'Personnalisation illimitée',
+          'Solution évolutive',
+          'Design impactant',
+          'Validation avant le développement',
+          'Expérience utilisateur fluide',
+          'Image de marque renforcée',
+        ],
+        codeItems: [
+          'Code optimisé et léger',
+          'Conception éco-responsable', 
+          'Site accessible',  
+          'Conception responsive',
+          'Gestion de la maintenance',
+          'Optimisation des performances',
+          'Contenu dynamique (si demandé)',
+        ],
+        thirdItems: [
+          'Déploiement rapide',
+          'Optimisation automatique', 
+          'Sécurité renforcée',  
+          'Sauvegardes automatiques',
+          'Mises à jour simplifiées',
+          'Chargement rapide',
+          'Maintenance prise en charge',
+        ],
+      };
+    },
+  };
   </script>
+  
+  <style scoped>
+  /* Add any scoped styling if needed */
+  </style>
   
