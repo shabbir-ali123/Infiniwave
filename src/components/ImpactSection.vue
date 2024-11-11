@@ -1,18 +1,14 @@
 <template>
-    <section class="py-10 " style='
-  /* Custom radial gradient centered with intense colors */
-  /* bg-gradient-to-tr from-[#99E2B4] to-[#66B2A8] */
-  /* #007A73 #99E2B4  #66B2A8*/
+    <section class="py-10 font-poppins" style='
+    /* #007A73 #99E2B4  #66B2A8*/
   background-image: radial-gradient(circle, #99E2B4,#f9f9f9)'
  >
       <h2 class="text-center text-3xl font-bold font-sans pb-8 ml-62 mr-45">Transformez votre impact digital</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 lg:gap-8 ">
-        <!-- Each item in the grid -->
         <div class=" md:flex justify-evenly items-center leading-12">
           <div class="mx-4">
-            <!-- Replace with icon as needed 131 by 131 -->
-            <div class="inline-block w-[100px] h-[100px] mx-auto flex items-center justify-center bg-gray-200 rounded-full">
-                <!-- <img src={} alt="#"> -->
+           <div class="inline-block w-[100px] h-[100px] mx-auto flex items-center justify-center bg-gray-200 rounded-full">
+                
 <svg width="61" height="61" viewBox="0 0 61 62" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M30.4999 57.9953C45.409 57.9953 57.4951 45.9091 57.4951 31.0001C57.4951 16.091 45.409 4.00488 30.4999 4.00488C15.5909 4.00488 3.50476 16.091 3.50476 31.0001C3.50476 45.9091 15.5909 57.9953 30.4999 57.9953Z" fill="#99E2B4" stroke="#020202" stroke-width="2.475" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12.8491 41.3828C14.7766 41.3828 16.6253 40.6171 17.9883 39.2541C19.3513 37.8911 20.117 36.0425 20.117 34.1149V27.8852C20.117 25.9577 20.8827 24.109 22.2457 22.746C23.6087 21.383 25.4573 20.6173 27.3849 20.6173C29.3125 20.6173 31.1611 19.8516 32.5241 18.4886C33.8871 17.1256 34.6529 15.2769 34.6529 13.3494V4.32235C33.2991 4.11333 31.9122 4.00488 30.4999 4.00488C15.5909 4.00488 3.50476 16.091 3.50476 31.0001C3.50476 34.6793 4.24081 38.1866 5.57368 41.3828H12.8491Z" fill="white" stroke="#020202" stroke-width="2.475" stroke-linecap="round" stroke-linejoin="round"/>
@@ -21,20 +17,20 @@
 
             </div>
           </div>
-          <div>
+          <div class="text-center md:text-left">
           <h3 class="text-xl font-semibold">Réduisez votre impact écologique</h3>
-          <p class="text-gray-600 mt-2">
+          <p class="text-gray-600 mt-2 line-clamp-3">
             Un site optimisé qui consomme moins de ressources,
              pour un impact environnemental réduit et des performances maximisées.
           </p>
         </div>
         </div>
-        <!-- Repeat for each item -->
+        
         <div class="md:flex justify-evenly items-center leading-6">
           <div class="mx-4">
-            <!-- Replace with icon as needed -->
+            
             <div class="inline-block w-[100px] h-[100px] mx-auto flex items-center justify-center bg-gray-200 rounded-full">
-                <!-- <img src={} alt="#"> -->
+              
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M19.6802 16.6501C13.5091 14.8284 7.77556 17.4103 3.04854 22.1373L13.1888 27.7439" fill="#99E2B4"/>
 <path d="M19.6802 16.6501C13.5091 14.8284 7.77556 17.4103 3.04854 22.1373L13.1888 27.7439" stroke="#020202" stroke-width="2.475" stroke-linecap="round" stroke-linejoin="round"/>
@@ -48,7 +44,7 @@
 
             </div>
           </div>
-          <div>
+          <div class="text-center md:text-left">
           <h3 class="text-xl font-semibold">Boostez votre visibilité en ligne</h3>
           <p class="text-gray-600 mt-2">
             Profitez d’un site rapide et intuitif qui améliore l’expérience
@@ -56,12 +52,12 @@
           </p>
         </div>
         </div>
-        <!-- 2rd reapt  -->
+        
         <div class="md:flex  justify-evenly items-center leading-6">
           <div class="mx-4">
-            <!-- Replace with icon as needed -->
+           
             <div class="inline-block w-[100px] h-[100px] mx-auto flex items-center justify-center bg-gray-200 rounded-full">
-                <!-- <img src={} alt="#"> -->
+               
                  
                   
 <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -72,7 +68,7 @@
 
             </div>
           </div>
-          <div>
+          <div class="text-center md:text-left">
           <h3 class="text-xl font-semibold">Rendez votre site accessible à tous</h3>
           <p class="text-gray-600 mt-2">
             Un site conçu pour être utilisé par tous,
@@ -80,12 +76,12 @@
           </p>
         </div>
         </div>
-        <!-- 3rd repeat  -->
+        
         <div class="md:flex  justify-evenly items-center leading-6">
           <div class="mx-4 ">
-            <!-- Replace with icon as needed -->
+            
             <div class="inline-block w-[100px] h-[100px] mx-auto flex items-center justify-center bg-gray-200 rounded-full">
-                <!-- <img src={} alt="#"> -->
+               
                
 <svg width="44" height="45" viewBox="0 0 44 45" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M3.01682 11.994C3.07099 11.4762 3.70009 11.3492 3.98982 11.7775L8.8421 18.9514C10.1834 20.9345 13.1027 20.7571 14.205 18.6256L21.3419 4.82516C21.4709 4.57572 21.7242 4.41968 22.0001 4.41968C22.276 4.41968 22.5293 4.57572 22.6583 4.82516L29.7952 18.6256C30.8975 20.7571 33.8168 20.9345 35.1581 18.9514L40.0104 11.7775C40.3001 11.3492 40.9292 11.4762 40.9834 11.994C41.341 15.4125 41.6429 18.922 41.6429 22.5C41.6429 26.078 41.341 29.5876 40.9834 33.006C40.4989 37.6367 36.8573 41.3611 32.3317 41.877C28.9703 42.2602 25.5189 42.5893 22.0001 42.5893C18.4812 42.5893 15.0299 42.2602 11.6684 41.877C7.14288 41.3611 3.50123 37.6367 3.01682 33.006C2.65921 29.5876 2.35723 26.078 2.35723 22.5C2.35723 18.922 2.65921 15.4125 3.01682 11.994Z" fill="#99E2B4" stroke="#020202" stroke-width="2.475" stroke-linejoin="round"/>
@@ -94,7 +90,7 @@
 
             </div>
           </div>
-          <div>
+          <div class="text-center md:text-left">
           <h3 class="text-xl font-semibold">Démarquez-vous de la concurrence</h3>
           <p class="text-gray-600 mt-2">
             Avec un site unique, éco-conçu et accessible,

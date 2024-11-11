@@ -1,5 +1,5 @@
    <template>
-    <section class="py-16"  style=' 
+    <section class="py-16 font-poppins"  style=' 
    /* #007A73 #99E2B4  #66B2A8*/
   background-image: radial-gradient(circle, #99E2B4,#f9f9f9)'>
     <h2 class="text-center text-3xl font-bold my-24 leading-16">3 Phases Pour Élever Votre Présence <br>  Digitale </h2>
@@ -32,8 +32,7 @@
         </template>
       </CardData>
   
-      <!-- Add more cards as needed -->
-    </div>
+     </div>
   </section>
   </template>
   
@@ -79,6 +78,5 @@
   </script>
   
   <style scoped>
-  /* Add any scoped styling if needed */
   </style>
   
