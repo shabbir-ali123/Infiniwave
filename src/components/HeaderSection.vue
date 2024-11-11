@@ -2,8 +2,8 @@
     <header class="shadow-b-2xl bg-white border-b font-poppins">
       <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
-          <a href="#" class="-m-1.5 p-1.5">
-             <img class="h-12 w-auto" src="../assets/Infiniwave-logo.png" alt="" />
+          <a href="#" class=" ">
+             <img class="h-[92px] w-[250px]" src="../assets/Infiniwave-logo.png" alt="" />
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -11,16 +11,19 @@
             <Bars3Icon class="h-[20px] w-[40px]" aria-hidden="true" />
           </button>
         </div>
-        <PopoverGroup class="hidden lg:flex font-normal text-xl lg:gap-x-12">
+        <PopoverGroup class="hidden lg:flex font-normal font-[21px] text-xl items-center lg:gap-x-12">
           <a href="" class="text-sm/6 font-semibold text-gray-900">Accueil</a>                    
           <a href="#" class="text-sm/6 font-semibold text-gray-900">À propos</a>
           <a href="#" class="text-sm/6 font-semibold text-gray-900">Projets</a>      
           <a href="" class="text-sm/6 font-semibold text-gray-900" >Services</a> 
           <a href="#" class="text-sm/6 font-semibold text-gray-900">Contact</a>                    
         </PopoverGroup>
-        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" class="text-sm/6 font-semibold text-white rounded-lg items-center text-center px-4 bg-[#003049]">Réserver un appel</a>
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center">
+          <a href="#" class="text-sm/6 h-[42px] w-[207px] font-semibold text-white rounded-lg flex items-center justify-center bg-[#003049]">
+             Réserver un appel
+           </a>
         </div>
+
       </nav>
                     <!-- below here ... check it up -->
      

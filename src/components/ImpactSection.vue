@@ -1,6 +1,5 @@
-<template>
+ <template>
     <section class="py-10 font-poppins" style='
-    /* #007A73 #99E2B4  #66B2A8*/
   background-image: radial-gradient(circle, #99E2B4,#f9f9f9)'
  >
       <h2 class="text-center text-3xl font-bold font-sans pb-8 ml-62 mr-45">Transformez votre impact digital</h2>
@@ -106,4 +105,4 @@
   <script>
   export default {};
   </script>
-  
+
