@@ -3,7 +3,7 @@
       <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
           <a href="#" class=" ">
-             <img class="h-[92px] w-[250px]" src="../assets/Infiniwave-logo.png" alt="" />
+             <img class="md:h-[92px] md:w-[250px] h-10 w-[100]" src="../assets/Infiniwave-logo.png" alt="" />
           </a>
         </div>
         <div class="flex lg:hidden">
