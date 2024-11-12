@@ -18,25 +18,26 @@
           <a href="" class="text-sm/6 font-semibold text-gray-900" >Services</a> 
           <a href="#" class="text-sm/6 font-semibold text-gray-900">Contact</a>                    
         </PopoverGroup>
-        <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center">
+        <!-- <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center">
           <a href="#" class="text-sm/6 h-[42px] w-[207px] font-semibold text-white rounded-lg flex items-center justify-center bg-[#003049]">
              Réserver un appel
            </a>
-        </div>
+        </div> -->
+        <NavFootBTn />
 
       </nav>
-                    <!-- below here ... check it up -->
+                    <!-- small Secreen Navbar below here  -->
      
       <Dialog class="lg:hidden w-full" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
              <div class="fixed inset-0 z-10" />
         <DialogPanel class="fixed text-center inset-y-0 right-0 z-10 flex w-full flex-col justify-center items-center overflow-y-auto bg-white sm:max-w-full sm:ring-1 sm:ring-gray-900/10">
            <div class="p-6 mx-auto w-full flex flex-col items-center">
               <div class="flex flex-col items-center justify-center">
-                <button type="button" class="-m-2.5 rounded-md p-2.5 my-4 text-black" @click="mobileMenuOpen = false">
+                <button type="button" class="-m-2.5 rounded-md pt-9 my-4 text-black" @click="mobileMenuOpen = false">
                   <XMarkIcon class="h-8 w-8 font-bold" aria-hidden="true" />
                 </button>
-                <a href="#" class="-m-1.5 p-1.5 text-center">
-                 <img class="h-8 w-auto" src="../assets/Infiniwave-logo.png" alt="" />
+                <a href="#" class="-m-1.5  text-center">
+                 <img class="h-[51px] w-[123px]" src="../assets/Infiniwave-logo.png" alt="" />
                 </a>
              </div>
 
@@ -46,8 +47,9 @@
                  {{ item.name }}
                 </a>
               </div>
+              <!-- <NavFootBTn /> -->
              <div class="py-4">
-               <a href="#" class="text-sm font-semibold text-white rounded-lg px-4 py-1 bg-[#003049]">Réserver un appel</a>
+               <a href="#" class="h-[42px] w-[207px] font-semibold text-white rounded-lg px-4 py-1 bg-[#003049]">Réserver un appel</a>
              </div>
            </div>
        </div>
@@ -57,6 +59,7 @@
  </template>
   
   <script setup>
+  import NavFootBTn from './NavFootBTn.vue';
   import { ref } from 'vue'
   import {
     Bars3Icon,
