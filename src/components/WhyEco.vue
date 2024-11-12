@@ -1,5 +1,5 @@
 <template>
-    <section class="py-16 bg-gray-100 font-poppins">
+    <section class="py-16 md:px-0 px-4 bg-white font-poppins">
       <div class="grid grid-cols-12 gap-6  flex justify-center">
         <!-- Text Section: Span 4 Columns -->
         <div class="col-span-12 md:col-span-5 items-center lg:ml-[105px] lg:mr-[70px]">

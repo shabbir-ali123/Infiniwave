@@ -6,15 +6,15 @@
         <dl class="mt-10 space-y-4 divide-y divide-gray-900/10">
           <Disclosure as="div" v-for="faq in faqs" :key="faq.question" class="" v-slot="{ open }">
             <dt>
-              <DisclosureButton class="flex w-full bg-white items-start justify-between text-left text-black">
-                <span class="text-base/7 font-semibold p-1 font-[28px] font-medium">{{ faq.question }}</span>
+              <DisclosureButton class="flex w-full bg-white items-start justify-between text-left text-black  px-[16px] py-[14px]">
+                <span class="text-base/7 font-semibold font-[28px] font-medium">{{ faq.question }}</span>
                 <span class="ml-6 flex h-7 items-center ">
                   <ChevronDownIcon v-if="!open" class="h-6 w-6" aria-hidden="true" />
                   <ChevronUpIcon v-else class="h-6 w-6" aria-hidden="true" />
                 </span>
               </DisclosureButton>
             </dt>
-            <DisclosurePanel as="dd" class="p-2 bg-[#EAE0D5]">
+            <DisclosurePanel as="dd" class="px-[45px] py-[16px] bg-[#EAE0D5]">
               <p class="text-base/7 text-gray-600">{{ faq.answer }}</p>
             </DisclosurePanel>
           </Disclosure>

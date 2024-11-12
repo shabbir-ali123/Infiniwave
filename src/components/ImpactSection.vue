@@ -2,7 +2,7 @@
     <section class="py-10 font-poppins" style='
   background-image: radial-gradient(circle, #99E2B4,#f9f9f9)'
  >
-      <h2 class="text-center text-3xl font-bold font-sans pb-8 ml-62 mr-45">Transformez votre impact digital</h2>
+      <h2 class="text-center text-3xl font-bold font-sans pt-16 md:pb-[123px] pb-8 md:text-[68px] text-[24px]">Transformez votre impact digital</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 lg:gap-8 ">
         <div class=" md:flex justify-evenly items-center leading-12">
           <div class="mx-4">

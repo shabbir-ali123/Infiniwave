@@ -2,7 +2,7 @@
     <section class="py-16 font-poppins"  style=' 
    /* #007A73 #99E2B4  #66B2A8*/
   background-image: radial-gradient(circle, #99E2B4,#f9f9f9)'>
-    <h2 class="text-center text-3xl font-bold my-24 leading-16">3 Phases Pour Élever Votre Présence <br>  Digitale </h2>
+    <h2 class="text-center  md:text-[68px] text-[24px] my-24  font-medium">3 Phases Pour Élever Votre Présence <br>  Digitale </h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-8 lg:px-12 ">
       <CardData title="Design" :items="designItems">
         <template #icon>
