@@ -21,7 +21,7 @@
         <NavFootBTn />
 
       </nav>
-                    <!-- small Secreen Navbar below here  -->
+          
      
       <Dialog class="lg:hidden w-full" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
              <div class="fixed inset-0 z-10" />
@@ -42,7 +42,7 @@
                  {{ item.name }}
                 </a>
               </div>
-              <!-- <NavFootBTn /> -->
+         
              <div class="py-4">
                <a href="#" class="h-[42px] w-[207px] font-semibold text-white rounded-lg px-4 py-1 bg-[#003049]">Réserver un appel</a>
              </div>

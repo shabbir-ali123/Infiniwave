@@ -20,7 +20,7 @@
         </div>
        
 
-                   <!-- Last footer side is here -->
+              
 <div class="container d-block md:flex md:justify-between mx-auto md:text-center py-8 px-4 max-w-5xl">
   <p class="w-full md:w-auto">© Infiniwave 2023, Tous droits réservés</p>
   <p class="w-full md:w-auto mt-4 md:mt-0">Politique de confidentialité</p>
