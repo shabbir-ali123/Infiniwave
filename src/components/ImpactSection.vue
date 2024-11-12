@@ -1,8 +1,6 @@
- <template>
-  <section class="font-poppins" >
-     <!-- style=' background-image: radial-gradient(circle, #99E2B4,#f9f9f9)'  -->
-  
-    <h2 class="text-center text-[68px] font-semibold pt-[70px] pb-[123px] ml-62 mr-45">
+<template>
+  <section class="font-poppins" style="background-image: linear-gradient(to bottom, #ffffff 0%, #99E2B4 50%, #ffffff 100%);">
+    <h2 class="text-center text-[68px] font-semibold pt-[70px] pb-[123px]  ">
       Transformez votre impact digital
     </h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 lg:gap-8"  >
@@ -49,8 +47,7 @@
 </svg>
         </template>
       </ImpactSectionComp>
-
-       <ImpactSectionComp
+      <ImpactSectionComp
         title="Démarquez-vous de la concurrence"
         description=" Avec un site unique, éco-conçu et accessible,
              vous offrez une expérience que vos concurrents n’égalent pas. 
@@ -79,13 +76,12 @@ export default {
 
 
 <style scoped>
-.section {
-font-family: 'Poppins', sans-serif;
-background-image: radial-gradient(
-  circle at left bottom,
-  #99E2B4,
-  #f9f9f9
-);
-}
-
+/* .section {
+  font-family: 'Poppins', sans-serif;
+  background-image: radial-gradient(
+    circle at left bottom,
+    #99E2B4,
+    #f9f9f9
+  );
+} */
 </style>

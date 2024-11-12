@@ -1,5 +1,5 @@
 <template>
-     <footer class="py-4 px-4 dark:text-white text-black font-poppins">
+     <footer class="py-4 px-4 dark:text-white text-black font-poppins bg-[#fffff]">
         <div class="container mx-auto max-w-5xl border-b rounded pb-4">
           <div class="flex flex-col md:flex-row md:justify-between items-center text-left space-y-4 sm:space-y-0 ">
             <div class="w-[170px] h-[51px] mr-auto md:mr-0">
