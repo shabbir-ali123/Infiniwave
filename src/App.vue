@@ -3,9 +3,12 @@
     <HeaderSection />
     <HeroSection />
     <WhyEco />
+    <div style=' 
+      background-image: radial-gradient(circle, #99E2B4,#f9f9f9)'>
     <ImpactSection />
     <PhasesSection />
     <FAQSection />
+    </div>
     <Footer />
   </div>
 </template>
