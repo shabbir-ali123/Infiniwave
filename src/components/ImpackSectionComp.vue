@@ -5,9 +5,9 @@
           <slot name="icon"></slot>
         </div>
       </div>
-      <div class="text-center md:text-left">
-        <h3 class="text-xl font-semibold">{{ title }}</h3>
-        <p class="text-gray-600 mt-2 line-clamp-3">
+      <div class="text-center md:text-left font-poppins">
+        <h3 class="text-[32px] font-poppins pb-[15px] font-semibold">{{ title }}</h3>
+        <p class="text-[22px] font-normal ">
           {{ description }}
         </p>
       </div>

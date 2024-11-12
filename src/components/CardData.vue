@@ -5,10 +5,10 @@
          
           <slot name="icon"></slot>
         </div>
-        <h3 class="text-lg font-black mt-6 ml-2">{{ title }}</h3>
+        <h3 class="text-[38px] font-black mt-2 ml-2">{{ title }}</h3>
       </div>
       <ul class="list-disc ml-4 text-gray-600">
-        <li v-for="(item, index) in items" :key="index" class="flex items-center text-[19px]">
+        <li v-for="(item, index) in items" :key="index" class="flex items-center font-normal text-[19px]">
           
           <img src="../assets/Arrow - Right 2.png" alt="arrow icon" class="mr-2" />
           {{ item }}

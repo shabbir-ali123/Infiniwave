@@ -2,7 +2,7 @@
   <section class="font-poppins" 
      style=' background-image: radial-gradient(circle, #99E2B4,#f9f9f9)' 
   >
-    <h2 class="text-center text-[68px] font-bold leading-[95px] pt-[70px] pb-[123px] ml-62 mr-45">
+    <h2 class="text-center text-[68px] font-semibold pt-[70px] pb-[123px] ml-62 mr-45">
       Transformez votre impact digital
     </h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 lg:gap-8"  >

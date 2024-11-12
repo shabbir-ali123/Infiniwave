@@ -2,17 +2,17 @@
     <section class="py-[109px] font-poppins">
       <div class="grid grid-cols-12 gap-6   flex justify-center">
         <!-- Text Section: Span 4 Columns -->
-        <div class="col-span-12 lg:col-span-5 px-2 lg:px-0 items-center lg:ml-[105px] lg:mr-[70px]">
+        <div class="col-span-12 lg:col-span-5 px-2 lg:px-0 items-center lg:ml-[80px] lg:mr-[70px]">
           <div class="w-[69px] h-[5px] bg-gradient-to-b from-[#99E2B4] mb-[20px]"></div>
-          <h2 class="text-[43px] font-bold font-inter">
+          <h2 class="text-[33px] font-bold font-inter">
             Pourquoi un site éco-conçu et accessible ?
           </h2>
-          <p class="mt-4 text-gray-600  font-normal">
+          <p class="text-[19px] font-inter  font-normal pb-[51px]">
             Un site éco-responsable et accessible réduit l’impact environnemental du web tout en étant inclusif.
             Grâce à une conception allégée et des standards d’accessibilité, vous obtenez <span class="underline underline-offset-[5px]"> un site performant,
             durable et facile d’accès pour tous.</span>
           </p>
-          <a href="#" class="text-[#0E0729] font-medium text-[25px] inline">En savoir plus →</a>
+          <a href="#" class="text-[#0E0729] w-[204px] h-[25px] font-medium text-[25px] inline">En savoir plus →</a>
         </div>
         <!-- Image Section: Span 8 Columns -->
         <div class="col-span-12 lg:col-span-7 flex justify-center lg:mr-[54px]">
