@@ -1,7 +1,7 @@
    <template>
     <section class="font-poppins" style="background-image: linear-gradient(to bottom, #ffffff 0%, #99E2B4 50%, #ffffff 100%);" >
       
-    <h2 class="text-center text-[68px] font-semibold py-[100px] leading-16">3 Phases Pour Élever Votre Présence <br>  Digitale </h2>
+    <h2 class="text-center text-[28px] md:text-[68px] font-semibold py-[72px] md:py-[100px] ">3 Phases Pour Élever Votre Présence <br>  Digitale </h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-8 lg:px-12 ">
       <CardData title="Design" :items="designItems">
         <template #icon>
