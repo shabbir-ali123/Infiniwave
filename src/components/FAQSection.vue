@@ -2,7 +2,7 @@
   <div class="font-poppins" style="background-image: linear-gradient(to bottom, #ffffff 0%, #99E2B4 50%, #ffffff 100%);">
     <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 ">
       <div class="mx-auto max-w-4xl divide-y divide-gray-900/10">
-        <h2 class="text-[68px] font-semibold text-center sm:text-5xl">Questions les plus posées</h2>
+        <h2 class="md:text-[68px] font-semibold text-center text-[38px]">Questions les plus posées</h2>
         <dl class="mt-10 space-y-4 divide-y divide-gray-900/10">
           <Disclosure as="div" v-for="faq in faqs" :key="faq.question" class="" v-slot="{ open }">
             <dt>

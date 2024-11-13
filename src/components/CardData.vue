@@ -1,7 +1,7 @@
 <template>
     <div class="p-6 w-full rounded-lg shadow-md border-2 border-white rounded-2xl font-poppins">
       <div class="flex py-4">
-        <div class="w-[40px] h-[40px] md:w-[80px] md:h-[80px] bg-[#0E0729] rounded-full flex items-center justify-center">
+        <div class="w-[60px] h-[60px] md:w-[80px] md:h-[80px] bg-[#0E0729] rounded-full flex items-center justify-center">
          
           <slot name="icon"></slot>
         </div>
